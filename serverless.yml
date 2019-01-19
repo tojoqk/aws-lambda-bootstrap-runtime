@@ -1,0 +1,10 @@
+service: aws-lambda-bootstrap-runtime
+
+provider:
+  name: aws
+  runtime: provided
+
+layers:
+  bootstrap:
+    path: layer
+    description: Bootstrap Runtime
