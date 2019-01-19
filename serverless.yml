@@ -8,3 +8,5 @@ layers:
   bootstrap:
     path: layer
     description: Bootstrap Runtime
+    allowedAccounts:
+      - '*'
